@@ -2,7 +2,7 @@
 #Displays Best School 10 times using a while loop
 
 COUNTER=0
-while [ $INCREASE -lt 10 ]
+while [ $COUNTER -lt 10 ]
 do
       echo "BEST SCHOOL"
       ((COUNTER=COUNTER+1))
