@@ -5,5 +5,5 @@ INCREASE=0
 while [ $INCREASE -lt 10 ]
 do
       echo "BEST SCHOOL"
-      let INCREASE=INCREASE+1
+      ((INCREASE=INCREASE+1))
 done
