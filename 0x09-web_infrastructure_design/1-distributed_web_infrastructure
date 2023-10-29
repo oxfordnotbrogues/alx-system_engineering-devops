@@ -1,0 +1,5 @@
+The load balancer is configured with the Robin Round Scheduling algoruthm.
+The implementation of this algorithm:
+Robin Round passes each new connection request to the next server in line, eventually disrributing coneections evenly across the array of machines being load balanced. Round Robin works well in most configurations but could be better if the equipment that you are load balancing is not roughly equal in processing speed, connectionspeed and/or money
+link to the image of a Robin Round scheduling algorithm
+https://i.imgur.com/52Mpoo2.jpg
