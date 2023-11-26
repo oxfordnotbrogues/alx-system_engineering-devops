@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #making changes to a file
 
-file { 'etc/ssh/ssh_config:
+file { 'ect/ssh/ssh_config':
        ensure => present,
 
 content =>"
